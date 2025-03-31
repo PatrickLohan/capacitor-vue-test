@@ -4,7 +4,8 @@ This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- LazyVim (neovim distro)
+  config on request
 
 ## Type Support for `.vue` Imports in TS
 
@@ -43,3 +44,11 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+### CapacitorJS
+
+Set up using [Installing Capacitor - Sync your web code to your native project](https://capacitorjs.com/docs/getting-started#sync-your-web-code-to-your-native-project)
+
+#### Run cap
+
+Now we have a dist folder and the files have been sync'd, use `npx cap sync && npx cap run android` or ios on macos.
